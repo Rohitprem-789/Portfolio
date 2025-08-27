@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="shortcut icon" href="Rohit.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="Rohit.png" alt="rohit-modified">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rohit">Rohit</h1>
+          <p class="title">Under-Graduate</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:rohitprem69@gmail.com" class="contact-link">rohitprem69@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+9986854234" class="contact-link">9986854234</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2005-07-27">July 27, 2005</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bangalore, Karnataka, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rohit-prem-bcmc/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/rohit__prem/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://wa.me/9986854234" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+ 
+    <div class="main-content">
+    <nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item"><a class="navbar-link active" href="about.html">About</a></li>
+    <li class="navbar-item"><a class="navbar-link" href="skills.html">Skills</a></li>
+    <li class="navbar-item"><a class="navbar-link" href="projects.html">Projects</a></li>
+    <li class="navbar-item"><a class="navbar-link" href="certificates.html">Certificates</a></li>
+    <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+ 
+      <article data-page="about" class="active">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+           <p>Hello! I'm a passionate and curious BCA student at Kristu Jayanti College, constantly exploring the world of software development and AI. With hands-on experience in building real-world projects—from appointment scheduling systems to AI-based chatbots and trading platforms—I'm always looking for ways to apply technology to solve problems and create seamless user experiences.</p>
+           <p>I'm skilled in languages like C++, Python, and SQL, and I enjoy working with tools like Visual Studio, React.js, and Vite. Whether it's crafting responsive websites or optimizing system performance, I strive to deliver efficient and creative solutions.</p>
+           <p>I'm currently working on exciting projects like Slotify (appointment scheduling), and Homely (a real-estate business website). I'm also exploring AI integration to enhance user interaction and automation.</p>
+           <p>Let's build something amazing together!</p>
+        </section>
+
+        <section class="timeline">
+  
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+  
+            <h3 class="h3">Academics</h3>
+          </div>
+  
+          <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Kristu Jayanti College(Currently)</h4>
+                <span>2023 — 2026</span>
+                <p class="timeline-text">
+                3rd year in Bachelor of computer applications(BCA) 
+                2nd Year CGPA-8</p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">St Claret PU College</h4>
+                <span>2021 — 2023</span>
+                <p class="timeline-text">
+                 Scored 74% in PUC.
+                </p>
+             </li>
+  
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Nehru Centenary English School</h4>
+              <span>2010 — 2021</span>
+               <p class="timeline-text">
+              Scored 60% in SSLC. 
+              </p>
+             </li>
+          </ol>
+        </section>
+      </article>
+</main>
+
+<script src="js.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
